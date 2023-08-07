@@ -1,0 +1,194 @@
+/*For small devices: mobile phones*/
+@media only screen and (max-width: 600px) {
+    #box1 {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        display: none;
+    }
+
+    #wrapper {
+        padding: 0 30px 0 30px;
+        align-content: center;
+        font-size: 14px;
+    }
+
+    #header {
+        border: 2px solid lightgrey;
+        width: 0 auto;
+        height: 150px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 8px;
+    }
+
+    #headerText {
+        float: left;
+        border-bottom: 1px solid lightgrey;
+        height: 50px;
+        width: 395px;
+        padding: 0 5px 0 5px;
+        text-align: center;
+        margin-top: -20px;
+    }
+
+    #instructions {
+        float: left;
+        width: 50%;
+        text-align: justify;
+        padding-right: 10px;
+    }
+
+    #yourTime {
+        text-align: left;
+        float: right;
+        border: 1px solid lightgrey;
+        margin-top: -70px;
+        margin-left: 60%;
+        height: 90px;
+        width: 140px;
+        padding: 10px;
+    }
+
+    #hScore {
+        border-top: 1px solid lightgrey;
+        float: right;
+        margin-left: 60%;
+        margin-top: -50px;
+        height: 30px;
+        width: 150px;
+        padding: 10px 0 0 10px;
+    }
+
+    #credits {
+        float: left;
+        width: 200px;
+        margin-top: -20px;
+        text-align: left;
+    }
+}
+
+/*For tablets*/
+@media only screen and (min-width: 600px) {
+
+    #box1 {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        display: none;
+    }
+
+    #header {
+        border: 2px solid lightgrey;
+        width: 600px;
+        height: 180px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 8px;
+        margin-left: 30%;
+    }
+
+    #headerText {
+        float: left;
+        border-bottom: 1px solid lightgrey;
+        height: 50px;
+        width: inherit;
+        margin-top: -20px;
+        text-align: center;
+    }
+
+    #instructions {
+        border-right: 1px solid lightgrey;
+        margin-top: 10px;
+        float: left;
+        width: 200px;
+        text-align: justify;
+        padding-right: 10px;
+    }
+
+    #yourTime {
+        float: left;
+        border-bottom: 1px solid lightgrey;
+        margin: 20px 0 0 20px;
+        height: 30px;
+        width: 320px;
+        padding: 2px;
+    }
+
+    #hScore {
+        float: left;
+        margin: 10px 0 0 10px;
+        height: 30px;
+        width: 320px;
+        padding: 10px 0 0 10px;
+    }
+
+    #credits {
+        float: left;
+        width: 200px;
+        margin-top: 10px;
+        text-align: left;
+    }
+}
+
+/*For desktops and laptops*/
+@media only screen and (min-width: 992px) {
+    #box1 {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        display: none;
+    }
+
+    #header {
+        border: 2px solid lightgrey;
+        width: 600px;
+        height: 180px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 8px;
+        margin-left: 30%;
+    }
+
+    #headerText {
+        float: left;
+        border-bottom: 1px solid lightgrey;
+        height: 50px;
+        width: inherit;
+        margin-top: -20px;
+        text-align: center;
+    }
+
+    #instructions {
+        border-right: 1px solid lightgrey;
+        margin-top: 10px;
+        float: left;
+        width: 200px;
+        text-align: justify;
+        padding-right: 10px;
+    }
+
+    #yourTime {
+        float: left;
+        border-bottom: 1px solid lightgrey;
+        margin: 20px 0 0 20px;
+        height: 30px;
+        width: 320px;
+        padding: 2px;
+    }
+
+    #hScore {
+        float: left;
+        margin: 10px 0 0 10px;
+        height: 30px;
+        width: 320px;
+        padding: 10px 0 0 10px;
+    }
+
+    #credits {
+        float: left;
+        width: 200px;
+        margin-top: 10px;
+        text-align: left;
+    }
+}
