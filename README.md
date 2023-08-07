@@ -1,4 +1,4 @@
-# fast-fingers.github.io
+# Fast Fingers JS Game
 A JavaScript-based game I created back in 2019 on Sololearn. I decided to make it live
 
 View the project on Sololearn [here](https://www.sololearn.com/compiler-playground/W76hZonF527a) 
